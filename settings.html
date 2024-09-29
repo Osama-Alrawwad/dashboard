@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <!--Start CSS Links -->
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--End CSS Links -->
+    <!-- Start fonts & Icons  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- End fonts & Icons  -->
+
+</head>
+
+<body>
+    <div class="page d-flex bg-eee">
+        <div class="side-bar p-20 p-relative bg-white">
+            <h2 class="txt-c m-0 p-relative">Al-Rawwad</h2>
+            <ul>
+                <li class="p-10 ">
+                    <a href="index.html">
+                        <i class='bx bx-bar-chart-alt bx-flip-horizontal'></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="p-10 active">
+                    <a href="settings.html">
+                        <i class='bx bxs-cog'></i>
+                        <span>settings</span>
+                    </a>
+                </li>
+                <li class="p-10 ">
+
+                    <a href="profile.html">
+                        <i class='bx bx-user'></i>
+                        <span>profile</span>
+                    </a>
+                </li>
+                <li class="p-10 ">
+
+                    <a href="projects.html">
+                        <i class='bx bxl-graphql'></i>
+                        <span>projects</span>
+                    </a>
+                </li>
+                <li class="p-10 ">
+
+                    <a href="courses.html">
+                        <i class='bx bxs-graduation'></i>
+                        <span>courses</span>
+                    </a>
+                </li>
+                <li class="p-10 ">
+                    <a href="friends.html">
+                        <i class='bx bxs-user-circle'></i>
+                        <span>friends</span>
+                    </a>
+                </li>
+                <li class="p-10 ">
+                    <a href="files.html">
+                        <i class='bx bx-file-blank'></i>
+                        <span>files</span>
+                    </a>
+                </li>
+                <li class="p-10 ">
+                    <a href="plans.html">
+                        <i class='bx bx-credit-card'></i>
+                        <span>plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full bg-eee">
+            <!-- Start Head -->
+            <div class="head bg-white d-flex align-center space-between">
+                <div class="input p-relative">
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="navigation d-flex align-center p-relative">
+                    <i class='bx bx-bell'></i>
+                    <img src="images/avatar.png" alt="">
+                </div>
+            </div>
+            <h1 class="main-head">Settings</h1>
+            <!-- End Head -->
+
+            <!-- Start Settings Page  -->
+            <div class="setting-page">
+                <!-- Start Site Control -->
+                <div class="site-control main-page">
+                    <div class="text">
+                        <h2>Site Control</h2>
+                        <p>Control The Website If There Is Maintenance</p>
+                    </div>
+                    <div class="information">
+                        <div class="info">
+                            <h4>Website Control</h4>
+                            <p>Open/Close Website And Type The Reason</p>
+                        </div>
+                        <div class="toggle-button">
+                            <label>
+                                <input class="checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <textarea name="" id="" placeholder="Close message content"></textarea>
+
+                </div>
+                <!-- End Site Control -->
+
+                <!-- Start General info  -->
+                <div class="general main-page">
+                    <div class="text">
+                        <h2>General Info</h2>
+                        <p>General Information About Your Account</p>
+                    </div>
+                    <div class="mb-15">
+                        <label for="f-name">First Name</label>
+                        <input type="text" id="f-name" placeholder="First Name">
+                    </div>
+                    <div class="mb-15">
+                        <label for="l-name">Last Name</label>
+                        <input type="text" id="name" placeholder="Last Name">
+                    </div>
+                    <div class="mb-15">
+                        <label for="email">Email</label>
+                        <input class="email" type="text" id="name" placeholder="o@nn.sa" disabled>
+                        <a href="#">Change</a>
+                    </div>
+                </div>
+                <!-- End General info  -->
+
+                <!-- Start security info  -->
+                <div class="security-info main-page">
+                    <div class="text">
+                        <h2>security Info</h2>
+                        <p>Security Information About Your Account</p>
+                    </div>
+                    <div class="sec-row">
+                        <div class="info">
+                            <h4>Password</h4>
+                            <p>Last Change On 25/10/2024</p>
+                        </div>
+                        <a href="#">Change</a>
+                    </div>
+                    <div class="sec-row">
+                        <div class="info">
+                            <h4>Two-Factor Authentication</h4>
+                            <p>Enable/Disable The Feature</p>
+                        </div>
+                        <div class="toggle-button">
+                            <label>
+                                <input class="checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="sec-row">
+                        <div class="info">
+                            <h4>Devices</h4>
+                            <p>Check The Login Devices List</p>
+                        </div>
+                        <a href="#">Device</a>
+                    </div>
+                </div>
+                <!--End security info  -->
+
+                <!-- Start social -->
+                <div class="social-info main-page">
+                    <div class="text">
+                        <h2>security Info</h2>
+                        <p>Security Information About Your Account</p>
+                    </div>
+                    <div class="social-row">
+                        <i class='bx bxl-whatsapp'></i>
+                        <input type="text" placeholder="+692...">
+                    </div>
+                    <div class="social-row">
+                        <i class='bx bxl-facebook'></i>
+                        <input type="text" placeholder="Facebook UserName">
+                    </div>
+                    <div class="social-row">
+                        <i class='bx bxl-linkedin'></i>
+                        <input type="text" placeholder="linkedin UserName">
+                    </div>
+                    <div class="social-row">
+                        <i class='bx bxl-youtube'></i>
+                        <input type="text" placeholder="youtube UserName">
+                    </div>
+                </div>
+                <!-- End social -->
+
+                <!-- Start Widgets Control -->
+                <div class="wedgets main-page">
+                    <div class="text">
+                        <h2>security Info</h2>
+                        <p>Security Information About Your Account</p>
+                    </div>
+                    <div class="wed-row">
+                        <input id="one" type="checkbox" checked>
+                        <label for="one"> <i class='bx bx-check'></i>Quick Draft</label>
+                    </div>
+                    <div class="wed-row">
+
+                        <input id="two" type="checkbox" checked>
+                        <label for="two"><i class='bx bx-check'></i>Yearly Targets
+                        </label>
+                    </div>
+                    <div class="wed-row">
+                        <input id="three" type="checkbox" checked>
+                        <label for="three"> <i class='bx bx-check'></i>
+                            Tickets Statistics
+                        </label>
+                    </div>
+                    <div class="wed-row">
+                        <input id="four" type="checkbox" checked>
+                        <label for="four"><i class='bx bx-check'></i>Latest News
+                        </label>
+                    </div>
+                    <div class="wed-row">
+                        <input id="five" type="checkbox" checked>
+                        <label for="five"><i class='bx bx-check'></i>Latest Tasks
+                        </label>
+                    </div>
+                    <div class="wed-row">
+                        <input id="six" type="checkbox" checked>
+                        <label for="six"><i class='bx bx-check'></i>Top Search Items
+                        </label>
+                    </div>
+
+                </div>
+                <!-- End Widgets Control -->
+
+                <!-- Start Backup -->
+                <div class="backup main-page">
+                    <div class="text">
+                        <h2>backup Manger</h2>
+                        <p>Control Backup Time And Location</p>
+                    </div>
+                    <div class="backup-row">
+                        <input id="rad1" type="radio" name="time" checked>
+                        <label for="rad1">Daily</label>
+                    </div>
+                    <div class="backup-row">
+                        <input id="rad2" type="radio" name="time">
+                        <label for="rad2">Monthly</label>
+                    </div>
+                    <div class="backup-row">
+                        <input id="rad3" type="radio" name="time">
+                        <label for="rad3">yearly</label>
+                    </div>
+                    <div class="back-sarver d-flex space-between">
+                        <div class="back-serv">
+                            <input type="radio" id="serv1" name="serv">
+                            <label for="serv1">
+                                <i class='bx bxs-server'></i>
+                                Megaman
+                            </label>
+                        </div>
+                        <div class="back-serv">
+                            <input type="radio" id="serv2" name="serv">
+                            <label for="serv2">
+                                <i class='bx bxs-server'></i>
+                                Zero
+                            </label>
+                        </div>
+                        <div class="back-serv">
+                            <input type="radio" id="serv3" name="serv">
+                            <label for="serv3">
+                                <i class='bx bxs-server'></i>
+                                Segma
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- End Backup -->
+            </div>
+            <!-- End Settings Page  -->
+
+        </div>
+    </div>
+</body>
+
+</html>
